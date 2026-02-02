@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zuluf Coffe & Kids | Cafenea în Iași</title>
+  <meta name="description" content="Zuluf Coffe & Kids – cafea de specialitate și un colț de joacă sigur pentru cei mici, în Iași. Meniu, program, locație și rezervări." />
+  <meta name="theme-color" content="#7A4E2D" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Zuluf Coffe & Kids" />
+  <meta property="og:description" content="Cafea de specialitate + kids corner. Vino cu cei mici, relaxează-te cu o cafea bună." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bogdanm9.github.io/zuluf-Coffe-kids/" />
+
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- floating icons on scroll -->
+  <div class="floaties" aria-hidden="true">
+    <div class="floaty floaty--1">🧸</div>
+    <div class="floaty floaty--2">☕</div>
+    <div class="floaty floaty--3">🥐</div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill">☕ Cafea de specialitate</span>
+        <span class="pill pill--kids">🧸 Kids corner</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="#contact">Rezervări &amp; Petreceri</a>
+        <a class="topbar__link" href="#locatie">Locație</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Zuluf Coffe & Kids">
+        <span class="brand__mark" aria-hidden="true">Z</span>
+        <span class="brand__text">
+          <strong>Zuluf</strong> <span>Coffe &amp; Kids</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigație principală">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Deschide meniul</span>
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#despre">Despre</a></li>
+          <li><a href="#meniu">Meniu</a></li>
+          <li><a href="#kids">Kids</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#evenimente">Evenimente</a></li>
+          <li><a href="#locatie">Locație</a></li>
+          <li><a class="btn btn--sm" href="#contact">Rezervări &amp; Petreceri</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <h1>
+            Cafea bună pentru tine,
+            <span class="accent">joacă sigură</span> pentru cei mici.
+          </h1>
+          <p class="lead">
+            La <strong>Zuluf Coffe & Kids</strong> găsești cafea de specialitate, gustări fresh și un spațiu prietenos pentru copii.
+            Perfect pentru ieșiri în familie, întâlniri cu prietenii sau o pauză liniștită.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#meniu">Vezi meniul</a>
+            <a class="btn btn--ghost" href="#contact">Rezervări &amp; Petreceri</a>
+          </div>
+
+          <dl class="stats" aria-label="Avantaje">
+            <div class="stat">
+              <dt>⏱️</dt>
+              <dd>Servire rapidă</dd>
+            </div>
+            <div class="stat">
+              <dt>🧼</dt>
+              <dd>Curățenie &amp; siguranță</dd>
+            </div>
+            <div class="stat">
+              <dt>🍼</dt>
+              <dd>Family-friendly</dd>
+            </div>
+			<div class="stat">
+              <dt>💻</dt>
+              <dd>Work-from-café</dd>
+            </div>
+			<div class="stat">
+              <dt>📶</dt>
+              <dd>Wi-Fi stabil</dd>
+            </div>
+			            <div class="stat">
+              <dt>🔌</dt>
+              <dd>Prize la fiecare masa</dd>
+            </div>
+		
+			 <div class="stat">
+              <dt>🥐️</dt>
+              <dd>Proaspăt în fiecare zi</dd>
+            </div>
+			
+			<div class="stat">
+              <dt>🎉</dt>
+              <dd>Evenimente copii</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__media reveal" style="--delay: 120ms;">
+          <div class="mediaCard">
+            <img
+              src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1600&q=70"
+              alt="Ceașcă de cafea pe masă, atmosferă caldă"
+              loading="eager"
+            />
+            <div class="mediaCard__badge">📍 Iași</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__wave" aria-hidden="true"></div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="despre">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Despre noi</h2>
+          <p>
+            Un loc în care părinții se bucură de o cafea excelentă, iar copiii au un colț de joacă gândit cu grijă.
+          </p>
+        </div>
+
+        <div class="cards3">
+          <article class="card reveal">
+            <h3>☕ Cafea de specialitate</h3>
+            <p>
+              Espresso echilibrat, lapte texturat corect și metode alternative.
+              Întreabă barista despre origini și note aromatice.
+            </p>
+          </article>
+
+          <article class="card reveal" style="--delay: 80ms;">
+            <h3>🧸 Spațiu Kids</h3>
+            <p>
+              Jucării potrivite vârstelor mici, colț de citit și activități periodice.
+              Vizibil din zona de mese pentru extra confort.
+            </p>
+          </article>
+
+          <article class="card reveal" style="--delay: 160ms;">
+            <h3>🏡 Atmosferă relaxată</h3>
+            <p>
+              Lumină caldă, muzică discretă și loc pentru cărucioare.
+              Ideal pentru familie, work-from-café sau un mic răsfăț.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section section--alt" id="meniu">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Meniu</h2>
+        </div>
+
+        <div class="menuGrid">
+          <div class="menuCol reveal">
+            <h3>Espresso Bar</h3>
+            <ul class="menuList">
+              <li><span>Espresso</span><span>12 lei</span></li>
+              <li><span>Double Espresso</span><span>16 lei</span></li>
+              <li><span>Americano</span><span>14 lei</span></li>
+              <li><span>Cappuccino</span><span>18 lei</span></li>
+              <li><span>Flat White</span><span>20 lei</span></li>
+              <li><span>Latte</span><span>20 lei</span></li>
+            </ul>
+            <p class="note">* Opțiuni lapte vegetal: ovăz / migdale.</p>
+          </div>
+
+          <div class="menuCol reveal" style="--delay: 80ms;">
+            <h3>Alternative &amp; Iced</h3>
+            <ul class="menuList">
+              <li><span>Aeropress (la cerere)</span><span>22 lei</span></li>
+              <li><span>Iced Latte</span><span>22 lei</span></li>
+              <li><span>Cold Brew (sezonier)</span><span>24 lei</span></li>
+            </ul>
+
+            <h3 class="mt">Gustări</h3>
+            <ul class="menuList">
+              <li><span>Croissant unt</span><span>14 lei</span></li>
+              <li><span>Banana bread</span><span>16 lei</span></li>
+              <li><span>Toast cu brânză</span><span>18 lei</span></li>
+            </ul>
+          </div>
+
+          <div class="menuCol reveal" style="--delay: 160ms;">
+            <h3>Pentru cei mici</h3>
+            <ul class="menuList">
+              <li><span>Cacao caldă</span><span>14 lei</span></li>
+              <li><span>Babyccino</span><span>10 lei</span></li>
+              <li><span>Ceai de fructe</span><span>12 lei</span></li>
+              <li><span>Fresh portocale</span><span>18 lei</span></li>
+              <li><span>Gustare “mini”</span><span>14 lei</span></li>
+            </ul>
+            <p class="note">* Spune-ne dacă există alergii/alimentație specială.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kids -->
+    <section class="section" id="kids">
+      <div class="container">
+        <div class="twoCol">
+          <div class="reveal">
+            <h2>Zona Kids</h2>
+            <p class="lead2">
+              Un colț gândit pentru joacă liniștită, creativitate și relaxare – în timp ce tu te bucuri de cafea.
+            </p>
+
+            <ul class="checklist">
+              <li>🧩 Jucării și activități potrivite</li>
+              <li>📚 Colț de citit + cărți ilustrate</li>
+              <li>👀 Kids Corner - Vizibil din zona de mese</li>
+              <li>🧼 Igienizare periodică</li>
+              <li>🎨 Ateliere ocazionale (weekend)</li>
+            </ul>
+
+            <div class="miniCards">
+              <div class="miniCard">
+                <strong>Kids Corner</strong>
+                <span>Jocuri, cărți și activități care încurajează imaginația.</span>
+              </div>
+              <div class="miniCard">
+                <strong>Pro-tip</strong>
+                <span>Întreabă barista de băuturile speciale pentru copii.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kidsMedia reveal" style="--delay: 120ms;">
+            <img
+              src="https://instagram.fbcm1-1.fna.fbcdn.net/v/t51.82787-15/624214077_17851946241622091_2430165628318241820_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=101&ig_cache_key=MzgyMjAyMTczNjk2MzU1MDUyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4OTYwLnNkci5DMyJ9&_nc_ohc=vvZn8hS94kMQ7kNvwFwu-_3&_nc_oc=AdkST-1286tKGXLUoCkbIZ3zYkB8C5KRnxOlCGBqLxRXhYo0-ELW83XnLK6llij7u5I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbcm1-1.fna&_nc_gid=OxuUZnoXpnRjy_8-KVgUBQ&oh=00_AftUzqV9B_ZZMLbWJ5NAedT5fTpwhKC0Hy3Z_eAeSzTnYA&oe=6986A414"
+              alt="Activități pentru copii la masă, atmosferă caldă"
+              loading="lazy"
+            />
+            <div class="kidsMedia__tag">🧸 Kids Corner</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section--alt" id="galerie">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Galerie</h2>
+        </div>
+
+        <div class="gallery">
+          <figure class="gItem reveal">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1400&q=70" alt="Interior cafenea" loading="lazy" />
+          </figure>
+          <figure class="gItem reveal" style="--delay: 60ms;">
+            <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=1400&q=70" alt="Cappuccino cu latte art" loading="lazy" />
+          </figure>
+          <figure class="gItem reveal" style="--delay: 120ms;">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=70" alt="Barista pregătind cafea" loading="lazy" />
+          </figure>
+          <figure class="gItem reveal" style="--delay: 180ms;">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1400&q=70" alt="Cafea și prăjituri" loading="lazy" />
+          </figure>
+          <figure class="gItem reveal" style="--delay: 300ms;">
+            <img src="https://images.unsplash.com/photo-1504151932400-72d4384f04b3?auto=format&fit=crop&w=1400&q=70" alt="Colț de joacă pentru copii" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events -->
+<section class="events-section section">
+  <div class="container">
+
+    <div class="events-header">
+      <h2>Evenimente</h2>
+
+      <div class="events-arrows">
+        <button class="events-arrow"
+          onclick="document.getElementById('events-track').scrollBy({ left: -320, behavior: 'smooth' })">
+          ‹
+        </button>
+        <button class="events-arrow"
+          onclick="document.getElementById('events-track').scrollBy({ left: 320, behavior: 'smooth' })">
+          ›
+        </button>
+      </div>
+    </div>
+
+    <div class="events-wrapper">
+      <div class="events-track" id="events-track">
+
+        <!-- card-uri -->
+		
+		      <article class="event-card">
+        <h3>🎨 Ateliere creative</h3>
+        <p>Weekend: pictură, colaj, activități senzoriale pentru cei mici.</p>
+        <span class="event-tag">Sezonier</span>
+      </article>
+
+      <article class="event-card">
+        <h3>🎂 Aniversări</h3>
+        <p>Sloturi pentru grupuri mici. Gustări, băuturi și spațiu kids inclus.</p>
+        <span class="event-tag">Cu rezervare</span>
+      </article>
+
+      <article class="event-card">
+        <h3>☕ Coffee tastings</h3>
+        <p>Sesiuni scurte despre origini, brew methods și degustare ghidată.</p>
+        <span class="event-tag">Lunar</span>
+      </article>
+
+      <article class="event-card">
+        <h3>🎬 Mini cinema kids</h3>
+        <p>Desene animate scurte, atmosferă relaxată și sunet redus.</p>
+        <span class="event-tag">Lunar</span>
+      </article>
+
+      <article class="event-card">
+        <h3>🎶 Muzică & joacă</h3>
+        <p>Cântăm împreună, jocuri muzicale și mișcare ușoară.</p>
+        <span class="event-tag">Weekend</span>
+      </article>
+
+      <article class="event-card">
+        <h3>📖 Ora de poveste</h3>
+        <p>Povești citite pentru cei mici, într-un cadru calm.</p>
+        <span class="event-tag">Săptămânal</span>
+      </article>
+
+        <!-- restul cardurilor -->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Întrebări frecvente</h2>
+        </div>
+
+        <div class="faq reveal">
+          <details>
+            <summary>Este potrivit pentru cărucioare?</summary>
+            <p>Da, avem spațiu pentru acces ușor și un layout gândit family-friendly.</p>
+          </details>
+          <details>
+            <summary>Pot rezerva pentru petreceri/aniversări?</summary>
+            <p>Da — scrie-ne în secțiunea Contact sau pe Instagram și confirmăm disponibilitatea.</p>
+          </details>
+          <details>
+            <summary>Aveți băuturi speciale pentru copii?</summary>
+            <p>a, există opțiuni potrivite pentru copii, precum cacao caldă, babyccino sau ceaiuri de fructe.</p>
+          </details>
+
+		            <details>
+            <summary>Există activități sau jucării diferite în funcție de vârstă?</summary>
+            <p>Da, avem jucării și activități variate, adaptate mai multor vârste.</p>
+          </details>
+		  		            <details>
+            <summary>Aveți opțiuni pentru alergii sau restricții alimentare?</summary>
+            <p>Te rugăm să ne anunți și vom încerca să te ajutăm cu alternative.</p>
+          </details>
+		  		            <details>
+            <summary>Organizați petreceri aniversare pentru copii?</summary>
+            <p>Da, organizăm aniversări pentru grupuri mici, pe bază de rezervare.</p>
+          </details>
+		  		  		            <details>
+            <summary>Cum pot afla ce evenimente urmează?</summary>
+            <p>Anunțăm evenimentele pe Instagram/Facebook și direct în cafenea.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="section" id="locatie">
+      <div class="container">
+        <div class="twoCol">
+          <div class="reveal">
+            <h2>Locație</h2>
+            <p class="lead2">
+              Ne găsești în <strong>Iași</strong>, la <strong>Str. Carpați nr. 12, Bloc 912A, Iași</strong>.
+            </p>
+
+            <div class="infoGrid">
+              <div class="infoCard">
+                <strong>Adresă</strong>
+                <span>Str. Carpați nr. 12, Bloc 912A, Iași</span>
+              </div>
+              <div class="infoCard">
+                <strong>Program</strong>
+                <span>Zilnic: 09:00–19:00</span>
+              </div>
+              <div class="infoCard">
+                <strong>Telefon</strong>
+                <span><a href="+40 755 098 988">+40 755 098 988</a></span>
+              </div>
+              <div class="infoCard">
+                <strong>Instagram</strong>
+                <span><a href="https://www.instagram.com/zuluf.cafe/" target="_blank" rel="noreferrer">@zuluf.cafe</a></span>
+              </div>
+            </div>
+
+            <a class="btn btn--ghost mt" target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=Strada%20Carpa%C8%9Bi%2012%2C%20Ia%C8%99i">
+              Deschide în Google Maps
+            </a>
+          </div>
+
+          <div class="mapCard reveal" style="--delay: 120ms;">
+            <iframe
+              title="Hartă Zuluf Coffe & Kids"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Strada%20Carpa%C8%9Bi%2012%2C%20Ia%C8%99i&output=embed">
+            </iframe>
+            <a class="mapOverlay" href="https://www.google.com/maps/dir/?api=1&destination=Strada%20Carpa%C8%9Bi%2012%2C%20Ia%C8%99i" target="_blank" rel="noreferrer" aria-label="Deschide în Google Maps"></a>
+            <div class="mapBadge">Deschide în Google Maps ↗</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Contact</h2>
+          <p>Trimite-ne un mesaj pentru rezervări, petreceri, evenimente sau colaborări.</p>
+        </div>
+
+        <div class="contactGrid">
+          <form class="form card reveal" id="contactForm">
+            <label>
+              Nume
+              <input name="name" type="text" placeholder="Numele tău" required />
+            </label>
+
+            <label>
+              Telefon / Email
+              <input name="contact" type="text" placeholder="ex: 07xx… / nume@email.com" required />
+            </label>
+
+            <label>
+              Mesaj
+              <textarea name="message" rows="5" placeholder="Ex: Aș dori o rezervare/petrecere pentru sâmbătă la 11:00, 2 adulți + 1 copil." required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn" type="submit">Trimite</button>
+              <p class="form__hint" id="formHint">Se deschide clientul tău de email (mailto).</p>
+            </div>
+          </form>
+
+          <div class="card contactSide reveal" style="--delay: 120ms;">
+            <h3>Detalii rapide</h3>
+ 
+            <div class="contactList">
+              <div>
+                <strong>Email</strong>
+                <span><a href="mailto:hello@zuluf.ro">hello@zuluf.ro</a></span>
+              </div>
+              <div>
+                <strong>Telefon</strong>
+                <span><a href="tel:+40 755 098 988">+40 755 098 988</a></span>
+              </div>
+              <div>
+                <strong>Adresă</strong>
+                <span>Str. Carpați nr. 12, Bloc 912A, Iași</span>
+              </div>
+            </div>
+
+            <div class="socialRow">
+              <a class="btn btn--sm btn--ghost" href="https://www.instagram.com/zuluf.cafe/" target="_blank" rel="noreferrer">Instagram</a>
+              <a class="btn btn--sm btn--ghost" href="https://www.facebook.com/profile.php?id=61586651145226" target="_blank" rel="noreferrer">Facebook</a>
+              <a class="btn btn--sm" href="#meniu">Meniu</a>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="small">
+              Pentru <strong>Rezervări &amp; Petreceri</strong>, spune-ne data, intervalul, numărul de adulți/copii și orice detalii utile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Zuluf Coffe & Kids</strong>
+        <div class="muted">© <span id="year"></span> Toate drepturile rezervate.</div>
+      </div>
+
+      <div class="footer__links">
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Zuluf Coffe & Kids",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Strada Carpați nr. 12, Bloc 912A",
+      "addressLocality": "Iași",
+      "addressCountry": "RO"
+    },
+    "servesCuisine": ["Coffee", "Snacks"],
+    "url": "https://bogdanm9.github.io/zuluf-Coffe-kids/",
+    "telephone": "+40 XXX XXX XXX",
+    "sameAs": ["https://www.instagram.com/zuluf.cafe/", "https://www.facebook.com/search/top?q=zuluf%20coffee%20kids%20iasi"]
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
